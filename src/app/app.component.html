@@ -1,0 +1,13 @@
+<div class="text-layout">
+  <h1>{{ nombre | titlecase}}</h1>
+  <h1>{{ valor | number}}</h1>
+  <h1>{{ obj | json}}</h1>
+</div>
+
+
+<button pButton  label="Click me" icon="pi pi-check"
+(click)="mostrarNombre()"></button>
+
+<p-card [header]="nombre | titlecase" subheader="Subheader">
+  lorem ipsum das
+</p-card>
